@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			h1 {
+				font-family: arial;
+				color: #000000;
+				font-size: 48px;
+			}
+			h2 {
+				font-family: arial;
+				color: #666666;
+				font-size: 32px;
+				margin-top: 0em;
+				margin: 4px 0px;
+			}
+			h3 {
+				font-family: arial;
+				color: #666666;
+				font-size: 16px;
+				margin-top: 3em;
+				margin-bottom: 0em;
+			}
+			p {
+				font-family: arial;
+				font-size: 14px;
+				align: left;
+			}
+			section::after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+			article {
+				float: left;
+				width: 42%;
+				padding: 0px;
+			}
+		</style>
+	<title>Assignment 2: Critique of Visualization</title>
+	</head>
+	<body style="text-align:center;" id="body">
+		<div align="center" class="main">
+			<h1>Assignment 2: Critique of Visualization</h1>
+			<div align="center" class="main" style="width:90%">
+				<section>
+					<article>
+						<div align="left" class="main">
+							<h2>Data Visualization 1:</h2>
+							<h2>Food Waste around the World</h2>
+							
+							<p style="margin: 24px;"></p>
+							
+							<p style="margin: 4px 0px;">This data visualization consists of 3 components:</p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• 5 statements (“Insight”)</p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• A heatmap ("Chart1")</p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Pie Charts ("Chart2")</p>
+
+							<h3>"Insight" Section</h3>
+							<p>Text insights serve as a complimentary summary for the data visualization. The audience should expect to see the insights from the data visualization directly with minimum thinking required. The correlation between the data visualization and each insight is commented below.</p>
+
+							<p style="margin: 24px 0px 4px;"><b><u>Insight #1: An estimated 931 million tonnes of food was wasted in 2019.</u></b></p>
+							<p style="margin: 4px 0px;">This insight is not reflected in the visualization.</p>
+
+							<p style="margin: 24px 0px 4px;"><b><u>Insight #2: The average person wastes around 123kg of food per year - the equivalent of 512.5 Big Macs.</u></b></p>
+							<p style="margin: 4px 0px;">This insight is not reflected in the visualization.</p>
+
+							<p style="margin: 24px 0px 4px;"><b><u>Insight #3: Africa has the highest average of food waste (143.2kg), while Europe has the lowest average (113.1kg).</u></b></p>
+							<p style="margin: 4px 0px;">From the map, Africa has darkest color in general, corresponding to the highest average of food waste. However, it is not obvious to see that Europe has the lowest average. Hence, this insight is partially reflected in the visualization.</p>
+
+							<p style="margin: 24px 0px 4px;"><b><u>Insight #4: Malaysians waste the most food (260kg), while Slovenes waste the least food (61kg).</u></b></p>
+							<p style="margin: 4px 0px;">Malaysia is labeled with “1” to indicate the highest average of food waste. However, it is not obvious to see Slovenes has the least average of food waste, despite it is labeled with “215”, because the audience does not know that “215” is the last rank. Hence, this insight is partially reflected in the visualization.</p>
+
+							<p style="margin: 24px 0px 4px;"><b><u>Insight #5: There appears to be no significant difference in average food wastage between developing and developed countries, suggesting that most countries can implement similar actions against food waste.</u></b></p>
+							<p style="margin: 4px 0px;">This insight is not reflected in the visualization.</p>
+
+							<h3>Chart 1</h3>
+							<p>The creator was trying to show the ranking of some selected countries. However, it could be annoying to track the ranking in sequence on a map. For example, Malaysia is top 1, but there is no visual direction for the readers to locate top 2 and so on.</p>
+							<p>The legend uses a set of gradient colors. However, the map does not show gradient colors, but 4 discrete colors. Instead, it would be better to set the legend as 4 categories (White: No data, Light Pink: Low Waste, Dark Pink: Moderate, Red: High Waste).</p>
+
+							<h3>Chart 2</h3>
+							<p>The pie chart shows the proportion of food waste in different contexts. Yet, the sum of actual values (not sum of percentages) for each pie chart is different. It could mislead the readers. For example, Africa and Europe has 19.3% and 22.1% of food waste in food service, respectively, but the actual value is 27.6 kg and 25.0 kg. Hence, comparing to Africa, Europe has a lower food waste in food service despite the higher percentage. In a glance, this could lead the readers to think that Europe does a worse job on controlling food waste in food service than Africa.</p>
+
+							<h3>Improvement</h3>
+							<p>An improved data visualization is recommended with the following highlights.</p>
+
+							<p style="margin: 24px 0px 4px;"><b><u>Suggested Chart 1</u></b></p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Rank the selected countries in descending order</p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Mark each country on the axis to indicate the rank position </p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Indicate <u>No. of Countries / Areas</u> for readers to know 215 is the last rank</p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Indicate <u>Global Average</u> on the axis, with a BigMac as a visual attraction</p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Indicate <u>Global Total</u> at the bottom the axis</p>
+
+							<p style="margin: 24px 0px 4px;"><b><u>Suggested Chart 2</u></b></p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Make boxplots, grouped by <u>Continents</u></p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Dotted line shows the average</p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Boxplot is optional for non-professional audiences (may be hard to interpret)</p>
+							<p style="margin: 4px 0px;"></p>
+
+							<p style="margin: 24px 0px 4px;"><b><u>Suggested Chart 3</u></b></p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Make boxplots, grouped by <u>Development States</u></p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Dotted line shows the average</p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Boxplot is optional for non-professional audiences (may be hard to interpret)</p>
+							<p style="margin: 4px 0px;"></p>
+
+							<p style="margin: 24px 0px 4px;"><b><u>Suggested Chart 4</u></b></p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Use stacked-bar chart instead of multiple pie charts</p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Total length of bars represents the total average</p>
+							<p style="margin: 4px 0px;"></p>
+						</div>
+					</article>
+				
+					<article style="float:right;width: 54%;">
+						<p>Original Data Visualization:</p>
+						<img src="images/DV1.png" style="width:100%">
+						<p style="margin: 40px 0px 4px;">Suggested Chart 1:</p>
+						<img src="images/DV1_Chart1.png" style="width:100%">
+						<p style="margin: 40px 0px 4px;">Suggested Chart 2:</p>
+						<img src="images/DV1_Chart2.png" style="width:100%">
+					</article>
+				</section>
+		  
+				<section>
+					<article>
+						<p style="margin: 40px 0px 4px;">Suggested Chart 3:</p>
+						<img src="images/DV1_Chart3.png" style="width:55%">
+					</article>
+				
+					<article style="float:right;width: 52%;">
+						<p style="margin: 40px 0px 4px;">Suggested Chart 4:</p>
+						<img src="images/DV1_Chart4.png" style="width:90%">
+					</article>
+				</section>
+				
+				<p style="margin: 80px;"></p>
+				<section>
+					<article style="width: 50%;">
+						<div align="left" class="main">
+							<h2>Data Visualization 2:</h2>
+							<h2>Key Partners in India's Trade Relations</h2>
+							
+							<p style="margin: 24px;"></p>
+							
+							<p style="margin: 4px 0px;">This data visualization consists of 4 components:</p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Total Trade (Chart 1)</p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Trade Balance (Chart 2)</p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Countries with high Negative Trade Balance (Chart 3)</p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Countries with high Positive Trade Balance (Chart 4)</p>
+							
+							<h3>Chart 1</h3>
+							<p>Radar chart is typically used to display multiple quantitative variables. These variables are generally independent. One of the common uses is to show multiple features of something and reflect its strengths and weaknesses.</p>
+							<p>This creator used a radar chart to represent a set of ranked data. It is ineffective to reflect the quantity as the data is arranged in a circular direction. The data in the lower rank is almost not visible to be compared. The readers will still rely on the text labels heavily to gain insights about the ranking.</p>
+							
+							<h3>Chart 2</h3>
+							<p>This chart uses a bar chart to represent the trade balance (positive or negative) of each country. At a glance, this chart seems unranked because the bars are not sorted in any order. However, referring to Chart 1, it can be seen that Chart 2 applies the same ranking. It is not conducive to rank trade balance by total trade. Why not just rank by trade balance?</p>
+							
+							<h3>Chart 3 & 4</h3>
+							<p>Chart 3 and Chart 4 are basically the extension of Chart 2, where 3 countries with highest positive or negative trades are displayed with more details (import and export).</p>
+							
+							<h3>Improvement</h3>
+							
+							<p style="margin: 24px 0px 4px;"><b><u>Chart 1</u></b></p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Use a bar chart instead of the radar chat</p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Rank the countries by Total Trade in descending order</p>
+							
+							<p style="margin: 24px 0px 4px;"><b><u>Chart 2</u></b></p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Use a bidirectional bar chart to show both import and export</p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Rank the countries by Trade Balance in descending order</p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• In general, countries with more positive trade will put on top</p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Refer to <i>Suggested Chart 1</i> as the example</p>
+							
+							<p style="margin: 24px 0px 4px;"><b><u>Chart 3 & 4</u></b></p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• <i>Suggested Chart 1</i> covers the information in Chart 3 & 4</p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Use the map of the country may not be a good visual representation</p>
+							<p style="text-indent: 32px; margin: 4px 0px;"><i>(Personally, I can only recognize China and USA without the label.)</i></p>
+							<p style="text-indent: 24px; margin: 4px 0px;">• Use the flag of the country may be a better option</p>
+						</div>
+					</article>
+					
+					<article style="float:right;width: 48%;">
+						<p>Original Data Visualization:</p>
+						<img src="images/DV2.jpg" style="width:100%">
+						<p style="margin: 40px 0px 4px;">Suggested Chart 1:</p>
+						<img src="images/DV2_Chart1.png" style="width:90%">
+					</article>
+				</section>
+			</div>
+		</div>
+	</body>
+</html>
